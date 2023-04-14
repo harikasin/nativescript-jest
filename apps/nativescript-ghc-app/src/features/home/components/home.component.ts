@@ -8,6 +8,8 @@ import { setStatusBarColor } from '../../../utils';
 })
 export class HomeComponent {
 
+  public title = "hola";
+
   ngOnInit() {
     setStatusBarColor('dark', '#97d9e9');
   }
